@@ -2,7 +2,7 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <calculator_operations.h>
+#include <Bank_OPERATIONS.h>
 #define PROJECT_NAME Bank_System
 void test_with_deposit(struct customer[], int, int, int);
 void test_with_withdraw(struct customer[], int, int, int);

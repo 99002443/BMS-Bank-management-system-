@@ -4,11 +4,11 @@ PROJECT_NAME = Bank_System
 BUILD = build
 
 # All source code files
-SRC = project_main.c\
-src/calculator_operations.c\
+SRC = main_bank.c\
+src/Bank_OPERATIONS.c\
 
 # All test source files
-TEST_SRC = src/calculator_operations.c\
+TEST_SRC = src/main_bank.c\
 test/test_Bank_OPERATIONS.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
